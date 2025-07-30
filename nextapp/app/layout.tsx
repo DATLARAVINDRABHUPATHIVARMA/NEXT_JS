@@ -24,7 +24,7 @@ export default function RootLayout({
           {navigations.map(nav => {
             const isActive = pathname === nav.href || (pathname.startsWith(nav.href) && nav.href !== "page")
             return(
-              <Link className={isActive ? "to-blue-500" : ""} key={nav.title} href={nav.href}>{nav.title}</Link>
+              <Link className={isActive ? "to-blue-700" : ""} key={nav.title} href={nav.href}>{nav.title}</Link>
             )
           })} 
         </div>
