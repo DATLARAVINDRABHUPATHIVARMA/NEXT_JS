@@ -1,6 +1,7 @@
 "use client"
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
 
 
 const navigations = [
@@ -15,6 +16,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  
 
   const pathname = usePathname()
   return (
@@ -28,6 +30,7 @@ export default function RootLayout({
             )
           })} 
         </div>
+        
         {children}
       </body>
     </html>
