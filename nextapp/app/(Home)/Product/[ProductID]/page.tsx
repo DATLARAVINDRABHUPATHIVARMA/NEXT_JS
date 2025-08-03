@@ -11,7 +11,7 @@ type Props = {params: Promise<{ProductID: string}>}
 //     return {
 //         title:`Product ${ProductID}`,
 //         description: "Product Description"
-//     }
+//     } 
 
 // }
 
