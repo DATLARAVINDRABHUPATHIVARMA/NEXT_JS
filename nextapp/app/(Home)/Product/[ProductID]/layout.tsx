@@ -1,4 +1,4 @@
-function getError(count: number ){
+function getError(count: number){
   return Math.floor(Math.random() * count)
 }
 
@@ -6,7 +6,7 @@ export default function ProductLayout({children}:{children: React.ReactNode}){
   const err = getError(2)
 
   if(err == 1){
-
+    throw new Error("Error in layout")
   }
 
   return(

@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { ErrorWrapper } from "./GlobalError";
 
 
 const navigations = [
@@ -30,8 +31,9 @@ export default function RootLayout({
             )
           })} 
         </div>
-        
-        {children}
+        <ErrorWrapper>
+          {children}
+        </ErrorWrapper>
       </body>
     </html>
   )
