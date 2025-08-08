@@ -9,7 +9,7 @@ interface WrapperProps{
 const ErrorSimulator =({
   message = "An Error Occured",
 }: {
-  message?: string;
+  message?: string; 
 }) => {
   const [error, setError] = useState(false);
 
