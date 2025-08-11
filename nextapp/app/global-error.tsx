@@ -1,9 +1,13 @@
-"use client"
+"use client";
 
-export default function GlobalError(){
-  return(
-    <div>
-      <button onClick={() => window.location.reload()}>Refresh</button>
-    </div>
-  )
+export default function GlobalError() {
+  return (
+    <html>
+      <body>
+        <div>
+          <button onClick={() => window.location.reload()}>Refresh</button>
+        </div>
+      </body>
+    </html>
+  );
 }
