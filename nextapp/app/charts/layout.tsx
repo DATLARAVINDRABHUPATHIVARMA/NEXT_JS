@@ -3,5 +3,5 @@ export default function ChartsLayoutPR({lineChart, barChart, heatmap}:{
   barChart: React.ReactNode,
   heatmap: React.ReactNode
 }){
-  return (<div>Chart Layout</div>) 
+  return (<div>Chart Layout</div>)
 }
