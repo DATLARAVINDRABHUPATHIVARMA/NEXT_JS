@@ -8,7 +8,7 @@ export default async function ReviewDetails({
   const { ProductID, reviewID } = await params;
 
   if (reviewID > "60") {
-    redirect("/");
+    redirect("/"); 
   }
 
   if (reviewID == "50") {
