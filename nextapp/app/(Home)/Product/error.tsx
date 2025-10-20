@@ -1,7 +1,7 @@
 "use client";
 export default function ReviewError({
-  error,
-  reset,
+  error, 
+  reset, 
 }: {
   error: Error;
   reset: () => void;
