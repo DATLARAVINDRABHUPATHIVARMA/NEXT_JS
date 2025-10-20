@@ -1,3 +1,3 @@
-export default function Heatmap(){
-  return <div>Heatmap</div>
+export default function Heatmap() {
+  return <div>Heatmap</div>;
 }
