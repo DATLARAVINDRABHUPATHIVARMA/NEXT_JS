@@ -1,3 +1,3 @@
-export default function Barchart() {
+export default function Barchart () {
   return <div>Bar Chart</div>;
 }
