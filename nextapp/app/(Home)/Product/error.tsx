@@ -4,7 +4,7 @@ export default function ReviewError({
   reset, 
 }: {
   error: Error;
-  reset: () => void;
+  reset: () => void; 
 }) {
   return (
     <div>
