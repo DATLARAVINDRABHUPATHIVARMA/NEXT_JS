@@ -28,10 +28,10 @@ export default function RootLayout({
             return (
               <Link
                 className={isActive ? "to-blue-700" : ""}
-                key={nav.title}
+                key={nav.title} 
                 href={nav.href}
               >
-                {nav.title}
+                {nav.title} 
               </Link>
             );
           })}
