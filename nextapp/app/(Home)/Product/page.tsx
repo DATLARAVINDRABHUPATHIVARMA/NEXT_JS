@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function Products () { 
-  const ProductID = 5;
+  const ProductID = 4;
   return (
     <div>
       <ul>
@@ -12,11 +12,8 @@ export default function Products () {
           <Link href="/Product/2">Product 2</Link>
         </li>
         <li>
-          <Link href="/Product/3">Product 3</Link>
-        </li>
-        <li>
-          <Link href="/Product/4" replace>
-            Product 4
+          <Link href="/Product/3" replace>
+            Product 3
           </Link>
         </li>
         <li>
