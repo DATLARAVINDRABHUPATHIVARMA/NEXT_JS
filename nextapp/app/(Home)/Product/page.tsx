@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Products () {
+export default function Products () { 
   const ProductID = 4;
   return (
     <div>
