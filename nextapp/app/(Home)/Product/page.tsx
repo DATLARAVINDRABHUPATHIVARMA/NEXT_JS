@@ -14,7 +14,7 @@ export default function Products () {
         <li>
           <Link href="/Product/3" replace>
             Product 3
-          </Link>
+          </Link> 
         </li>
         <li>
           <Link href={`/Product/${ProductID}`}>Product {ProductID}</Link>
